@@ -49,7 +49,6 @@ mySin(5);
 
 
 function myFac(a) {
-  return a ? a * myFac(a - 1) : 1;
   let b = a;
   for (let i = b-1; i > 0; i--) {
     b = b * i
